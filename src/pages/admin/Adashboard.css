@@ -1,0 +1,65 @@
+
+.dashboard-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f7fa;
+    min-height: 100vh; 
+}
+
+
+.dashboard-links {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    padding: 0;
+    margin: 20px 0;
+}
+
+
+.dashboard-item {
+    margin: 0 15px;
+}
+
+
+.dashboard-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.dashboard-link:hover {
+    background-color: #74ace7;
+    transform: scale(1.1); }
+
+
+.dashboard-container h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-top: 40px;
+}
+.tasks{
+    color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .dashboard-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dashboard-link {
+        margin-bottom: 10px;
+        padding: 10px 15px;
+    }
+}
